@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID API</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style-covid.css">
+    
+
+</head>
+<body>
+<div class="contain">
+    
+    <div class="query">
+        <h1>Covid 19: World Situation</h1>
+        <input type="text" placeholder="search" id="query-btn">
+        <a href="" id="search-btn"><i class="fa fa-search" aria-hidden="true"></i></a>
+        <p id="date"></p>
+    </div>
+
+    <div class="table-responsive">
+        <table  id="t01"> 
+            <tr id="tab_head">
+            <th style="background-color: rgb(11, 175, 216);">Country</th>
+            <th style="background-color: rgb(167, 59, 32);" >Total Cases</th> 
+            <th style="background-color: coral;">New Cases </th>
+            <th style="background-color: black;">Total Deaths</th>
+            <th style="background-color: gray;">New Deaths</th>
+            <th style="background-color: rgb(55, 243, 55);">Total Recovered</th>
+            <th style="background-color: rgb(95, 70, 235);">Active Cases</th>
+            </tr>
+            
+            <!-- table data goes here  -->
+        </table>
+    </div>  
+    
+    <script src="script_covid.js"></script>
+
+</div>
+</body>
+</html>
